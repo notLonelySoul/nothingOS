@@ -1,0 +1,49 @@
+#main-box {
+  min-width: 220px;
+  background-color: #d4d4d4;
+  margin: 5px;
+  padding: 5px;
+  padding-right: 3px;
+  border-radius: 10px;
+}
+
+#logo-button {
+  background-color: #909090;
+  color: #0d0d0d;
+  font-family: JetBrainsMono NF;
+  font-size: 20px;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 8px;
+  padding-right: 5px;
+  margin: 2px 0px 2px 2px;
+}
+
+#separator {
+  min-width: 0.06rem;
+  background-color: #3f3f3f;
+  margin: 8px;
+}
+
+#workspaces {
+  background-color: #0d0d0d;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+#workspaces > button {
+  min-width: 15px;
+  min-height: 15px;
+  margin: 2px;
+  background-color: #929292;
+  border-radius: 100px;
+  font-size: 0px;
+}
+
+#workspaces > button.active {
+  background-color: #e02b2b;
+}
+
+#workspaces > button.empty {
+  background-color: rgba(146, 146, 146, 0.25);
+}

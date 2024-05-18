@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+while true; do 
+  echo $(python /home/"$(whoami)"/.config/nothing/scripts/cpu_stats.py)
+
+done
