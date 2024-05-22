@@ -152,7 +152,7 @@ class BarMedia(Box):
             except Exception as e:
                 logger.info(e)
                 print(
-                    r"you prolly have installed some other package for spotify, use that command instead in components/bar_media.py #149"
+                    r"you prolly have installed some other package for spotify instead of `spotify-launcher` use that command instead in components/bar_media.py #155"
                 )
 
     def on_click(self, btn, event):

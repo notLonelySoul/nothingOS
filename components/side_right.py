@@ -114,7 +114,7 @@ class RightBar(Window):
         ... # to be overridden
 
     def delete_task(self, button: ButtonWithId, event):
-        print("this is working da kundi")
+
         id = button.get_id()
         with open(self.DATA_FILE_PATH, 'r') as f:
             tasks = json.load(f)
