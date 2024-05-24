@@ -1,0 +1,10 @@
+#left-main-box {
+    margin: 5px;
+    background-color: #0d0d0d;
+    border-radius: 18px;
+}
+
+#left-inner-box {
+    min-width: 300px;
+    min-height: 100px;
+}

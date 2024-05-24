@@ -1,0 +1,7 @@
+click
+pycairo
+PyGObject
+loguru
+
+[system-status]
+psutil

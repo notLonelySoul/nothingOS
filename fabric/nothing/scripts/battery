@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+while true; do
+	echo $(python /home/"$(whoami)"/.config/nothing/fabric/nothing/scripts/battery.py) 
+
+	sleep 2
+
+done
